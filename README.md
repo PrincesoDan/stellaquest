@@ -1,2 +1,2 @@
 # stellaquest
-It is a repository with code teh Stellar Quest
+It is a repository with code the Stellar Quest

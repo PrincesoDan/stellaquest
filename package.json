@@ -1,0 +1,10 @@
+{
+  "name": "stellaquest",
+  "version": "1",
+  "description": "Stellar Quest",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "stellar-sdk": "10.4.1"
+  }
+}

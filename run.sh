@@ -4,7 +4,7 @@
 currentDir=$(pwd)
 
 # Set the name, image and version for the Docker container
-containerName=stellaquestFrontend
+containerName=stellaquest
 imageName=node
 versionTag=18.18.2
 
@@ -32,8 +32,6 @@ docker run --volume ${currentDir}:/workspace \
            --tty \
            --detach \
            --publish-all \
-#           --memory=12g \
-#           --env-file .env \
            ${imageName}:${versionTag}
 
 # Set the git config
